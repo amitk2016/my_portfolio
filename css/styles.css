@@ -1,0 +1,38 @@
+.homepage{
+	height:60vh;
+	background-image: url(../img/homepagebg.jpg);
+	background-position: center center;
+}
+.navbar{
+	height:100px;
+	background-color: 
+}
+.homesection1{
+	height:100vh;
+}
+
+.profileimage{
+	height:40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+.profileimage img{
+	border-radius:50%;
+	height:35vh;
+}
+.leftprofile{
+	height:40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+.rightprofile{
+	height:40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
