@@ -8,21 +8,34 @@
     <title>Portfolio</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
 
   	<nav class="container-fluid navbar navbar-fixed-top">
   		<div class="navbar-header">
-      		<a class="navbar-brand" href="#">
-        		<img alt="Brand" src="...">
+      		<a class="navbar-brand" href="#homeSection">
+        		<img alt="Brand" src="img/logo.png">
       		</a>
+    	</div>
+    	<div class="nav-ul-box navbar-right">
+    		<ul class="nav-ul">
+    			<li class="nav-list-items"><a id="home" href="#homeSection">Home</a></li>
+    			<li class="nav-list-items"><a id="work" href="#workSection">Work</a></li>
+    			<li class="nav-list-items"><a id="contact" href="#contactSection">Contact</a></li>
+    		</ul>
     	</div>
   	</nav>
 
-  	<section class="homesection1">
+  	<section id="homeSection" class="homesection1">
   		<div class="container-fluid homepage">
-	    	
+  			<div class="heading-box">
+  				<div>
+  					<h1 class="heading">Design & Coding</h1><!-- <span>Web Services</span> -->
+  				</div> 				
+  			</div>
 	    </div>
 	    <div class="container-fluid">
 	    	<div class="row">
@@ -52,6 +65,18 @@
 	    	
 	    </div>	
   	</section>
+
+
+
+  	<section id="workSection" class="work">
+  			
+
+  	</section>
+
+
+  	<section id="contactSection" class="contact">
+  		
+  	</section>
 	    
 
 
@@ -64,5 +89,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
   </body>
 </html>

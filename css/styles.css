@@ -1,11 +1,62 @@
+/*Font family 
+For heading : 'Roboto+Condensed', sans-serif;
+For Navbar : 'Arvo', serif;;
+*/
+
+
+
+
+
+
 .homepage{
 	height:60vh;
 	background-image: url(../img/homepagebg.jpg);
 	background-position: center center;
 }
+.heading-box{
+	height:60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+.heading-box div{
+	color:white;
+	background-color: rgba(0,0,0,0.8);
+	padding:10px 50px;
+	text-align: center;
+}
+.nav-list-items{
+	list-style: none;
+	display: inline-block;
+	font-size:18px;
+	margin-left: 15px;
+}
+.nav-list-items a{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	font-family: 'Arvo', serif;
+}
+.nav-list-items a:hover{
+	color:#f1c40f;
+}
+
+.nav-ul-box{
+	height: 80px;
+	line-height:60px;
+	padding-right: 30px;
+}
+.heading{
+	margin-top:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+
+}
 .navbar{
-	height:100px;
+	height:80px;
 	background-color: 
+
 }
 .homesection1{
 	height:100vh;
@@ -36,3 +87,28 @@
 	justify-content:center;
 	align-items: center;
 }
+/*.....................Work section styles starts here.............................*/
+.work{
+	height: 100vh;
+	background-color: red;
+}
+
+/*..........................Work Styles Ends here ..................................*/
+
+/*.............................Contact Styles here...... ...........................*/
+.contact{
+	height:100vh;
+	background-color: green;
+}
+
+/*.........................Contact Styles Ends here.................................*/
+
+
+
+
+
+
+
+
+
+
