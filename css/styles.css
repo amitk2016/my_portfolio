@@ -31,6 +31,8 @@ For Navbar : 'Arvo', serif;;
 	display: inline-block;
 	font-size:18px;
 	margin-left: 15px;
+	padding:3px 25px;
+	background-color:rgba(0,0,0,0.6);
 }
 .nav-list-items a{
 	text-decoration: none;
@@ -43,8 +45,8 @@ For Navbar : 'Arvo', serif;;
 }
 
 .nav-ul-box{
-	height: 80px;
-	line-height:60px;
+	height:30px;
+	line-height:30px;
 	padding-right: 30px;
 }
 .heading{
@@ -109,7 +111,7 @@ For Navbar : 'Arvo', serif;;
 /*.............................Contact Styles here...... ...........................*/
 .contact{
 	height:100vh;
-	background-color:#E4DBBF;
+	background-color:#EDEDE4;
 }
 
 /*.........................Contact Styles Ends here.................................*/
