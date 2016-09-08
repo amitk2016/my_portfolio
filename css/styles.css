@@ -90,7 +90,18 @@ For Navbar : 'Arvo', serif;;
 /*.....................Work section styles starts here.............................*/
 .work{
 	height: 100vh;
-	background-color: red;
+	background-color:#222930;
+}
+.modalcolor{
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+
+}
+#modal1{
+	max-width:560px;
+}
+.skills{
+	height:150px;
 }
 
 /*..........................Work Styles Ends here ..................................*/
@@ -98,7 +109,7 @@ For Navbar : 'Arvo', serif;;
 /*.............................Contact Styles here...... ...........................*/
 .contact{
 	height:100vh;
-	background-color: green;
+	background-color:#E4DBBF;
 }
 
 /*.........................Contact Styles Ends here.................................*/
